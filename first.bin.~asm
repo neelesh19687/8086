@@ -1,0 +1,13 @@
+ASSUME CS:CODE;
+ORG 1000H
+MOV AX, [1200H];
+MOV BX, [1202H];
+ADD AX,BX;
+MOV [1204H],AX;
+END;
+
+
+
+
+
+; [SOURCE]: E:\8086\first.asm
